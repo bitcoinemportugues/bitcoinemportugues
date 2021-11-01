@@ -36,9 +36,9 @@ collections:
     output: true
     permalink: /multimedia/
   writings:
-    title: Writings
+    title: Traduções
     output: true
-    permalink: /writings/
+    permalink: /traducoes/
 
 defaults:
   - scope:
