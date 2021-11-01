@@ -36,9 +36,9 @@ collections:
     output: true
     permalink: /multimedia/
   writings:
-    title: Traduções
+    title: Artigos e Ensaios
     output: true
-    permalink: /traducoes/
+    permalink: /artigos/
 
 defaults:
   - scope:
@@ -52,7 +52,7 @@ defaults:
       type: writings
     values:
       layout: writing
-      permalink: /writings/:title/
+      permalink: /artigos/:title/
   - scope:
       path: ""
       type: multimedia
@@ -76,7 +76,7 @@ navigation_footer:
 
 menu_items:
   Home: /
-  Essays & Research: /writings/
+  Ensaios e Artigos: /artigos/
   Multimedia: /multimedia/
   Blog: /blog/
 
