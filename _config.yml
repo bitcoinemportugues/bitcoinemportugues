@@ -38,7 +38,7 @@ collections:
   writings:
     title: Artigos e Ensaios
     output: true
-    permalink: /artigos/
+    permalink: /writings/
 
 defaults:
   - scope:
@@ -52,7 +52,7 @@ defaults:
       type: writings
     values:
       layout: writing
-      permalink: /artigos/:title/
+      permalink: /writings/:title/
   - scope:
       path: ""
       type: multimedia
@@ -76,7 +76,7 @@ navigation_footer:
 
 menu_items:
   Home: /
-  Artigos e Ensaios: /artigos/
+  Artigos e Ensaios: /writings/
   Multimedia: /multimedia/
   Blog: /blog/
 
