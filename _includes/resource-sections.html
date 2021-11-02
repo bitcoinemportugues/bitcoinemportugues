@@ -12,7 +12,7 @@
                             <article class="article article--post">
                                 <div class="resource-list-meta">
                                     <h4><a href="{{ writing.url }}">{{ writing.title }}</a></h4>
-                                    By
+                                    Por
                                     {% for author in writing.author %}
                                         {% assign author_object = site.authors | where: "name", author | first %}
                                         <a href="{{ site.baseurl }}/author/{{ author_object.slug }}"> {{ author }}</a>
@@ -45,7 +45,7 @@
                                 <div class="resource-list-meta">
                                     {% for category in media.categories %}
                                         <h4><a href="{{ media.url }}">{{ media.title }}</a></h4>
-                                        By
+                                        Por
                                         {% for author in media.author %}
                                             {% assign author_object = site.authors | where: "name", author | first %}
                                             <a href="{{ site.baseurl }}/author/{{ author_object.slug }}"> {{ author }}</a>
