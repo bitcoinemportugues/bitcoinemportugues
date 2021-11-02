@@ -24,14 +24,14 @@ layout: default
       <hr>
     {%- endfor -%}
 
-    {%- assign author_writings = site.writings
+    {%- assign author_artigos = site.artigos
       | where: "author", page.name -%}
-    {%- for writing in author_writings -%}
-      <a href="{{ writing.url }}">{{ writing.title }}</a>
-      {% if writing.date != "1111-11-11" %}
+    {%- for artigo in author_artigos -%}
+      <a href="{{ artigo.url }}">{{ artigo.title }}</a>
+      {% if artigo.date != "1111-11-11" %}
         {% include space-dot-space.html %}
-        <time datetime="{{ writing.date | date_to_xmlschema }}" class="time">
-          {{ writing.date | date_to_string }}
+        <time datetime="{{ artigo.date | date_to_xmlschema }}" class="time">
+          {{ artigo.date | date_to_string }}
         </time>
       {% endif %}
     <hr>
