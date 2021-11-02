@@ -1,6 +1,6 @@
 ---
 layout: writing
-title: O Numero Zero e Bitcoin
+title: O Número Zero e Bitcoin
 date: 2020-03-28
 categories: ['Filosofia']
 author: ['Robert Breedlove']
