@@ -1,6 +1,6 @@
 ---
 layout: writing
-title: A Cypherpunk Manifesto
+title: O Manifesto Cypherpunk
 date: 1993-03-09
 categories: ['Cypherpunk']
 author: ['Eric Hughes']
