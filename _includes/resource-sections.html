@@ -6,7 +6,7 @@
                 <b><h2 id={{ section | slugify }}>{{ section }}</h2></b>
 
                 {% if page.title == "Artigos e Ensaios" %}
-                    {% assign writings = site.writings | where_exp: "writing", "writing.categories contains section" %}
+                    {% assign artigos = site.writings | where_exp: "writing", "writing.categories contains section" %}
                     {% for writing in writings %}
                         <li>
                             <article class="article article--post">
