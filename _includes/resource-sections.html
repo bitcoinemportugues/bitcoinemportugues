@@ -7,7 +7,7 @@
 
                 {% if page.title == "Artigos e Ensaios" %}
                     {% assign artigos = site.writings | where_exp: "writing", "writing.categories contains section" %}
-                    {% for writing in writings %}
+                    {% for writing in artigos %}
                         <li>
                             <article class="article article--post">
                                 <div class="resource-list-meta">
