@@ -6,29 +6,29 @@
                 <b><h2 id={{ section | slugify }}>{{ section }}</h2></b>
 
                 {% if page.title == "Artigos e Ensaios" %}
-                    {% assign artigos = site.writings | where_exp: "writing", "writing.categories contains section" %}
-                    {% for writing in artigos %}
+                    {% assign artigos = site.artigos | where_exp: "artigo", "artigo.categories contains section" %}
+                    {% for artigo in artigos %}
                         <li>
                             <article class="article article--post">
                                 <div class="resource-list-meta">
-                                    <h4><a href="{{ writing.url }}">{{ writing.title }}</a></h4>
+                                    <h4><a href="{{ artigo.url }}">{{ artigo.title }}</a></h4>
                                     By
-                                    {% for author in writing.author %}
+                                    {% for author in artigo.author %}
                                         {% assign author_object = site.authors | where: "name", author | first %}
                                         <a href="{{ site.baseurl }}/author/{{ author_object.slug }}"> {{ author }}</a>
                                         {% unless forloop.last %} and {% endunless %}
                                     {% endfor %}
 
-                                    {% assign writing_date = writing.date | date: '%y%m%d' %}
-                                    {% if writing_date != "111111" %}
+                                    {% assign artigo_date = artigo.date | date: '%y%m%d' %}
+                                    {% if artigo_date != "111111" %}
                                         {% include space-dot-space.html %}
-                                        <time datetime="{{ writing.date | date_to_xmlschema }}" class="time">
-                                            {{ writing.date | date_to_string }}
+                                        <time datetime="{{ artigo.date | date_to_xmlschema }}" class="time">
+                                            {{ artigo.date | date_to_string }}
                                         </time>
                                     {% endif %}
 
                                     {% include space-dot-space.html %}
-                                    <a href="{{ writing.external_url }}"> Link </a>
+                                    <a href="{{ artigo.external_url }}"> Link </a>
                                 </div>
                             </article>
                         </li>
