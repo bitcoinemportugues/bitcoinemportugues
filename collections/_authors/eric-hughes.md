@@ -1,5 +1,5 @@
 ---
 name: Eric Hughes
 slug: eric-hughes
-permalink: /author/eric-hughes
+permalink: /author/erig-hughes
 ---
