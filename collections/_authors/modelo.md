@@ -1,0 +1,5 @@
+---
+name: 
+slug: 
+permalink: /author/
+---
