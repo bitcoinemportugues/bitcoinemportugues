@@ -6,28 +6,28 @@ function isMobile() {
 function onWritingsHover()
 {
 	if (!isMobile()) {
-		$(".writing-button").attr('src', 'assets/graphics/essays_research_hover.png');
+		$(".writing-button").attr('src', 'assets/graphics/artigos_hover.png');
 	}
 }
 
 function offWritingsHover()
 {
 	if (!isMobile()) {
-		$(".writing-button").attr('src', 'assets/graphics/essays_research.png');
+		$(".writing-button").attr('src', 'assets/graphics/artigos.png');
     }
 }
 
 function onMultimediaHover()
 {
 	if (!isMobile()) {
-		$(".multimedia-button").attr('src', 'assets/graphics/videos_media_hover.png');
+		$(".multimedia-button").attr('src', 'assets/graphics/videos_hover.png');
     }
 }
 
 function offMultimediaHover()
 {
 	if (!isMobile()) {
-		$(".multimedia-button").attr('src', 'assets/graphics/videos_media.png');
+		$(".multimedia-button").attr('src', 'assets/graphics/videos.png');
     }
 }
 
@@ -48,13 +48,13 @@ function offProjectsCompaniesHover()
 function onBlogHover()
 {
 	if (!isMobile()) {
-		$(".blog-button").attr('src', 'assets/graphics/theblog_hover.png');
+		$(".blog-button").attr('src', 'assets/graphics/livros_hover.png');
     }
 }
 
 function offBlogHover()
 {
 	if (!isMobile()) {
-		$(".blog-button").attr('src', 'assets/graphics/theblog.png');
+		$(".blog-button").attr('src', 'assets/graphics/livros.png');
     }
 }

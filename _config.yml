@@ -64,10 +64,10 @@ encoding: utf-8
 lang: en-US
 title: "Bitcoin Rabbit Hole"
 # logo: "/assets/logo.svg"
-description: "Bitcoin Rabbit Hole"
+description: "Bitcoin em Português"
 url: ""
 baseurl: ""
-email: "adamtache@gmail.com"
+email: "ldecferreira@gmail.com"
 # avatarurl: TODO
 css_inline: true
 
@@ -77,12 +77,12 @@ navigation_footer:
 menu_items:
   Home: /
   Artigos e Ensaios: /writings/
-  Multimedia: /multimedia/
-  Blog: /blog/
+  Multimídia: /multimedia/
+  Livros: /livros/
 
 social_links:
-  Twitter: https://twitter.com/adam_tache
-  GitHub: https://github.com/adamtache
+  Twitter: https://twitter.com/
+  GitHub: https://github.com/
   RSS: /feed.xml
 
 sharing_links:
