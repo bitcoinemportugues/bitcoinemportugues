@@ -1,9 +1,9 @@
 ---
 layout: writing
-title: Appcoins Are Snake Oil
-date: 2014-05-24
-categories: ['Nakamoto Institute']
-author: ['Daniel Krawisz']
-excerpt: Appcoins. What a great way to fund an open source project, right.
-external_url: https://nakamotoinstitute.org/mempool/appcoins-are-snake-oil/
+title: Bitcoin é o Micélio do Dinheiro
+date: 2020-05-01
+categories: ['Sociedade']
+author: ['Brandom Quittem']
+excerpt: Neste artigo, explorarei as semelhanças entre fungos e bitcoin. <br/> <b>Traduzido por:</b> PudimBTC
+external_url: https://explicabitcoin.wordpress.com/2021/11/02/bitcoin-e-o-micelio-do-dinheiro/
 ---
