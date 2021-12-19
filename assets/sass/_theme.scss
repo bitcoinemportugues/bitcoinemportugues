@@ -198,6 +198,8 @@ header {
 }
 
 .homepage-content {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   max-width: 800px;
   align-items: center;
@@ -205,6 +207,10 @@ header {
 
 .home-buttons-top {
   display: inline-flex;
+}
+
+@media all and (max-height: 800px) {
+  .home-buttons-top { display: inline-flex; margin-bottom: 40px }
 }
 
 .home-buttons-bottom {
